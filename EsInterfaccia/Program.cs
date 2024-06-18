@@ -23,7 +23,7 @@ namespace EsInterfaccia
             while (!isCheck)
             {
                 Console.WriteLine("Quanto carburante vuoi rifornire?");
-                var input = Console.ReadLine();
+                var input = Console.ReadLine()?.Trim() ?? "";
 
                 Console.Clear();
 
